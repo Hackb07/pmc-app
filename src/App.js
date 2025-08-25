@@ -1584,8 +1584,8 @@ export default function App() {
 
     // Supabase initialization
     useEffect(() => {
-        const supabaseUrl = 'https://pnbhofdofadotawcoktm.supabase.co';
-        const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBuYmhvZmRvZmFkb3Rhd2Nva3RtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU2OTg1ODYsImV4cCI6MjA3MTI3NDU4Nn0.PY3zugCP5HuD4xUYMouNL9Ps8CxCQ5pQugos5oivAPk';
+        const supabaseUrl = 'SUPABASE_PROJECT_URL';
+        const supabaseAnonKey = 'SUPABASE_ANNON_KEY';
         
         if (supabaseUrl === 'YOUR_SUPABASE_URL' || supabaseAnonKey === 'YOUR_SUPABASE_ANON_KEY') {
             showMessage('Supabase credentials are not set. Please provide them to enable data persistence.');
