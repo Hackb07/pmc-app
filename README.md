@@ -75,11 +75,6 @@ Then build & run via **Android Studio**.
 
 ---
 
-## 📸 Screenshots (To Be Added)
-
-* Login & Register Screen
-* Dashboard Analytics
-* Attendance Entry Page
 
 ---
 
